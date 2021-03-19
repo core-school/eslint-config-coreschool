@@ -8,6 +8,9 @@
   "bugs": {
     "url": "https://github.com/core-school/eslint-config-coreschool/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/core-school/eslint-config-coreschool"
