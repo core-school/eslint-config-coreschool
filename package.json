@@ -30,7 +30,7 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "release": "semantic-release"
   },
   "homepage": "https://github.com/core-school",
   "release": {
@@ -40,10 +40,7 @@
       "@semantic-release/release-notes-generator",
       "@semantic-release/github",
       [
-        "@semantic-release/npm",
-        {
-          "pkgRoot": "./pkg"
-        }
+        "@semantic-release/npm"
       ]
     ]
   },
