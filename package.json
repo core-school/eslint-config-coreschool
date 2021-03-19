@@ -1,16 +1,16 @@
 {
-  "name": "eslint-config-coreschool",
-  "version": "1.0.0",
+  "name": "@coreschool/eslint-config",
+  "version": "0.0.0-development",
   "main": "index.js",
   "description": "CORE Code School JS ESLint styleguide",
   "license": "MIT",
   "author": "Marc Pomar (https://www.corecode.school)",
   "bugs": {
-    "url": "https://github.com/core-school/javascript/issues"
+    "url": "https://github.com/core-school/eslint-config-coreschool/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/core-school/javascript"
+    "url": "https://github.com/core-school/eslint-config-coreschool"
   },
   "keywords": [
     "eslint",
@@ -46,5 +46,8 @@
         }
       ]
     ]
+  },
+  "devDependencies": {
+    "semantic-release": "^17.4.2"
   }
 }
