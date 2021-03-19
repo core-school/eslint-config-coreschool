@@ -1,6 +1,6 @@
 {
   "name": "@coreschool/eslint-config",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "main": "index.js",
   "description": "CORE Code School JS ESLint styleguide",
   "license": "MIT",
