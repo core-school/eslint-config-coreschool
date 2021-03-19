@@ -1,0 +1,50 @@
+{
+  "name": "eslint-config-coreschool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "CORE Code School JS ESLint styleguide",
+  "license": "MIT",
+  "author": "Marc Pomar (https://www.corecode.school)",
+  "bugs": {
+    "url": "https://github.com/core-school/javascript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/core-school/javascript"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "airbnb",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "es2020"
+  ],
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "homepage": "https://github.com/core-school",
+  "release": {
+    "branches": "main",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "./pkg"
+        }
+      ]
+    ]
+  }
+}
