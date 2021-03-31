@@ -1,6 +1,6 @@
 # eslint-config-coreschool
 
-```
+```bash
 yarn add @coreschool/eslint-config
 ```
 
